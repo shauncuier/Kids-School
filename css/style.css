@@ -129,6 +129,82 @@ nav ul li:nth-child(4) a {
     font-weight: 500;
 }
 
+/* Hero Section */
+
+.hero {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 640px;
+    ;
+}
+
+.hero-content h1 {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 24px;
+}
+
+.hero-content h1 .orange {
+    color: var(--Orange);
+}
+
+.hero-content h1 span {
+    color: var(--Sky-Blue);
+}
+
+.hero-content p {
+    color: var(--Black, #111);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.hero-content button {
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Black);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,25 +213,72 @@ nav ul li:nth-child(4) a {
     .container {
         width: 100%;
     }
+
     .menu,
     .logo h1 {
         display: none;
     }
+
     nav button {
         display: none;
     }
+
     .hide {
         display: block;
     }
+
     nav {
         border-bottom: 0.5px solid var(--Orange, #FEA301);
     }
+
     .burger {
         font-size: 30px;
         cursor: pointer;
         padding-right: 24px;
     }
+
     .logo {
         padding-left: 12px;
     }
+
+    /* Hero */
+    .hero {
+        flex-direction: column-reverse;
+        padding: 17px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-family: Quicksand;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+
+    .hero-content p {
+        font-family: Quicksand;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+
+    .hero-content button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 6px 24px;
+        border-radius: 8px;
+    }
+
+    .hero-img {
+        margin-bottom: 20px;
+    }
+
 }
