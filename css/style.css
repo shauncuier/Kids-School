@@ -8,7 +8,7 @@
 
 
 /* Icons */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'); */
 
 /* Reset CSS */
 
@@ -19,7 +19,10 @@
 }
 
 
-
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--White);
+}
 
 :root {
     --Black: #111;
@@ -31,11 +34,11 @@
 /* Global CSS */
 
 .gap-80 {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .gap-60 {
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .text-center {
@@ -57,10 +60,6 @@
 
 
 /* header */
-
-.header {
-    background-color: var(--White);
-}
 
 .logo {
     align-items: center;
@@ -185,6 +184,224 @@ nav ul li:nth-child(4) a {
     width: 100%;
 }
 
+/* Standard Curriculum */
+
+.curriculum {
+    background-image: url(../assets/bg.png);
+}
+
+.curriculum h1 {
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+    /* 125% */
+}
+
+.cards {
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    width: 450px;
+    /* height: 476.784px; */
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 32.069px; */
+    flex-shrink: 0;
+    border-radius: 18.864px;
+
+}
+
+.card-1 {
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-2 {
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.card-3 {
+
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+
+.card img {
+    width: 136.763px;
+    height: 136.763px;
+    margin-bottom: 32px;
+}
+
+.card h2 {
+    color: #202020;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30.654px;
+    margin-bottom: 32px;
+}
+
+
+.card p {
+    color: #808080;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.296px;
+    margin-bottom: 32px;
+}
+
+
+
+.card a {
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 15.091px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.296px;
+    text-decoration: none;
+}
+
+.card-1 a {
+    color: #64C8FF;
+}
+
+.card-2 a {
+    color: #F0AA00;
+}
+
+.card-3 a {
+    color: #8700FF;
+}
+
+
+
+/* Arrow */
+.arrows {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 80px 0 60px 0;
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: var(--Orange, #FEA301);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow i {
+    color: #FFF;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+
+
+}
+
+/* Arrow */
+
+
+.stories-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.left-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+/*  */
+.marquee {
+    border: 2px dotted var(--Orange);
+    padding: 20px;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: var(--Sky-Blue);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -212,6 +429,10 @@ nav ul li:nth-child(4) a {
 @media only screen and (max-width: 576px) {
     .container {
         width: 100%;
+    }
+
+    .gap-80 {
+        padding-top: 40px;
     }
 
     .menu,
@@ -279,6 +500,70 @@ nav ul li:nth-child(4) a {
 
     .hero-img {
         margin-bottom: 20px;
+    }
+
+
+    /* curriculum */
+    .curriculum h1 {
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card {
+        width: calc(100% - 40px);
+        margin: 20px;
+        padding: 36px 28px;
+    }
+
+    .card img,
+    .card h2,
+    .card p {
+        margin-bottom: 22px;
+    }
+
+    .card img {
+        width: 92.595px;
+        height: 92.595px;
+    }
+
+    .card h2 {
+        font-size: 16.603px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20.754px;
+    }
+
+    .card p {
+        text-align: center;
+        font-family: Raleway;
+        font-size: 10.217px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19.158px;
+    }
+
+    .card a {
+        font-family: Quicksand;
+        font-size: 10.217px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19.158px;
+    }
+
+
+
+    /* Arrows */
+    .arrows {
+        display: none;
     }
 
 }
