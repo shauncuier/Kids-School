@@ -1,4 +1,38 @@
 /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Quicksand", serif; */
+
+/*  font-family: "Raleway", serif; */
+
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
+
+:root{
+    --Black:#111;
+    --Orange: #FEA301;
+    --Sky-Blue: #01ACFD;
+}
+
+/* Global CSS */
+
+.gap-80{
+    margin-top: 80px;
+}
+.gap-60{
+    margin-top: 60px;
+}
+.text-center{
+    text-align: center;
+}
+.display-flex{
+    display: flex;
+}
