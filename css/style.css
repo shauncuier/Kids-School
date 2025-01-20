@@ -5,9 +5,14 @@
 
 /*  font-family: "Raleway", serif; */
 
+
+
+/* Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
 /* Reset CSS */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,23 +21,141 @@
 
 
 
-:root{
-    --Black:#111;
+:root {
+    --Black: #111;
     --Orange: #FEA301;
     --Sky-Blue: #01ACFD;
+    --White: #F7F7F7;
 }
 
 /* Global CSS */
 
-.gap-80{
+.gap-80 {
     margin-top: 80px;
 }
-.gap-60{
+
+.gap-60 {
     margin-top: 60px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.header {
+    background-color: var(--White);
+}
+
+.logo {
+    align-items: center;
+    gap: 17px;
+}
+
+.logo img {
+    width: 62px;
+    height: 62px;
+}
+
+.logo h1 {
+    color: var(--Black);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    gap: 32px;
+    list-style: none;
+}
+
+.navbar a {
+    color: var(--Orange);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.navbar button {
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Orange);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(2) a {
+    color: var(--Sky-Blue);
+    font-weight: 500;
+}
+
+nav ul li:nth-child(3) a {
+    color: #05D4DF;
+    font-weight: 500;
+}
+
+nav ul li:nth-child(4) a {
+    color: #5D58EF;
+    font-weight: 500;
+}
+
+
+
+
+/* Media for Mobile */
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .menu,
+    .logo h1 {
+        display: none;
+    }
+    nav button {
+        display: none;
+    }
+    .hide {
+        display: block;
+    }
+    nav {
+        border-bottom: 0.5px solid var(--Orange, #FEA301);
+    }
+    .burger {
+        font-size: 30px;
+        cursor: pointer;
+        padding-right: 24px;
+    }
+    .logo {
+        padding-left: 12px;
+    }
 }
