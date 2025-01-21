@@ -8,7 +8,7 @@
 
 
 /* Icons */
-/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
 
 /* Reset CSS */
 
@@ -314,6 +314,10 @@ nav ul li:nth-child(4) a {
     cursor: pointer;
 }
 
+.arrow:hover {
+    background: var(--Black, #01ACFD);
+}
+
 .arrow i {
     color: #FFF;
     text-align: center;
@@ -341,6 +345,146 @@ nav ul li:nth-child(4) a {
 }
 
 
+footer {
+    background-color: var(--Sky-Blue);
+    height: 519px;
+
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    height: 519px;
+}
+
+.footer-item-1 {
+    width: 50%;
+}
+
+
+.footer-item-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.footer-logo {
+    align-items: center;
+    
+}
+
+.footer-logo img {
+    width: 82.902px;
+    height: 81.652px;
+}
+
+.footer-logo h1 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 42.143px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.509px;
+}
+
+.footer-item-1 p {
+    width: 400px;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 35px 0;
+}
+
+
+.quick-link h2{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quick-link ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+.quick-link ul li a{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+}
+.social h2{
+    color: #FFF;
+font-family: Quicksand;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 100% */
+}
+.icons{
+    margin-top: 32px;
+}
+.icons a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -349,15 +493,21 @@ nav ul li:nth-child(4) a {
 
 /*  */
 .marquee {
-    border: 2px dotted var(--Orange);
+    border-top: 1px solid var(--Orange);
+    background-color: var(--Black);
     padding: 20px;
+}
+
+.marquee span {
+    color: var(--Orange);
 }
 
 .blink {
     animation: blinker 1.5s linear infinite;
-    color: var(--Sky-Blue);
+    color: var(--White);
     font-size: 30px;
     font-weight: bold;
+
 }
 
 @keyframes blinker {
