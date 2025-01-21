@@ -498,6 +498,10 @@ line-height: 26px; /* 100% */
     padding: 20px;
 }
 
+.marquee span img{
+    height: 30px;
+}
+
 .marquee span {
     color: var(--Orange);
 }
