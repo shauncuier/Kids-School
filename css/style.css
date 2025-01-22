@@ -334,16 +334,157 @@ nav ul li:nth-child(4) a {
 /* Arrow */
 
 
+/* Our Stories */
+
 .stories-cards {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 19px;
 }
 
 .left-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 19px;
 }
+
+.our-stories {
+
+    background-image: url(../assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+}
+
+.our-stories h1 {
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+
+}
+
+.right-card {
+    background-color: var(--White);
+    width: 100%;
+    border-radius: 16px;
+}
+
+.right-card img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.right-card .p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-weight: 500;
+    line-height: 28.761px;
+    text-transform: capitalize;
+    width: 174.51px;
+    height: 47.934px;
+    padding: 14.38px 18.876px 15.339px 19.174px;
+    border-radius: 47.934px;
+    background: #3CD8E8;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 38px;
+}
+
+.right-card h3 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.347px;
+    margin-bottom: 51px;
+    width: 402.495px;
+
+}
+
+.right-card p {
+    color: #666;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    width: 433.057px;
+    /* 187.5% */
+}
+
+.right-card-content {
+    padding: 50px;
+}
+
+.lcard {
+    background-color: var(--White);
+    border-radius: 16px;
+}
+
+.lcard img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.lcard p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 47.934px;
+    background: #95B226;
+    display: flex;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 38px;
+}
+
+.lcard h3 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.761px;
+    margin: 38px;
+}
+
+
+
+/* Our Stories */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
@@ -430,6 +571,8 @@ footer {
     text-decoration: none;
     margin-left: 5px;
 }
+
+/* Footer */
 
 
 
@@ -709,10 +852,71 @@ footer {
 
 
     /* Arrows */
-    .arrows {
+    .arrows,
+    .right-card {
         display: none;
     }
 
+    /*  */
+
+
+    .left-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 11px;
+        margin: 15px;
+    }
+
+
+
+    .lcard p {
+        display: flex;
+        width: 100px;
+        height: 15px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 9.133px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17.125px;
+        /* 187.5% */
+        text-transform: capitalize;
+        margin-top: -12px;
+        margin-left: 10px;
+        padding: 0;
+
+    }
+
+    .lcard h3 {
+        font-size: 9.133px;
+        line-height: 17.125px;
+        width: 107.916px;
+        height: 28.542px;
+        margin: 22px;
+    }
+
+    .our-stories h1 {
+        font-size: 26px;
+        line-height: 57.5px;
+    }
+
+    .stories-cards {
+        display: inline;
+
+    }
+
+
+
+    /*  */
+
+
+
+
+
+    /* Footer */
     .footer-items {
         grid-template-columns: 1fr;
 
@@ -727,25 +931,29 @@ footer {
         font-size: 16px;
     }
 
+    /* Footer */
     footer {
         padding: 50px 20px;
     }
 
-    .footer-logo img{
+    .footer-logo img {
         width: 69.227px;
         height: 69.227px;
     }
-    .footer-logo h1{
+
+    .footer-logo h1 {
         font-size: 35.73px;
     }
-    .quick-link h2{
+
+    .quick-link h2 {
         font-size: 20.348px;
     }
-    .quick-link ul li a{
+
+    .quick-link ul li a {
         font-size: 16.957px;
     }
 
-    .social h2{
+    .social h2 {
         font-size: 22.043px;
     }
 
