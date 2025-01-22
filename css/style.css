@@ -342,7 +342,7 @@ nav ul li:nth-child(4) a {
     gap: 19px;
 }
 
-.left-card {
+.left-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 19px;
@@ -420,17 +420,17 @@ nav ul li:nth-child(4) a {
     padding: 50px;
 }
 
-.lcard {
+.left-card {
     background-color: var(--White);
     border-radius: 16px;
 }
 
-.lcard img {
+.left-card img {
     width: 100%;
     border-radius: 16px 16px 0 0;
 }
 
-.lcard p {
+.left-card p {
     color: #FFF;
     font-family: Raleway;
     font-size: 15.339px;
@@ -449,7 +449,7 @@ nav ul li:nth-child(4) a {
     margin-left: 38px;
 }
 
-.lcard h3 {
+.left-card h3 {
     color: #000;
     font-family: Quicksand;
     font-size: 15.339px;
@@ -459,11 +459,11 @@ nav ul li:nth-child(4) a {
     margin: 38px;
 }
 
-.lcard .green-bg {
+.left-card .green-bg {
     background: #95B226;
 }
 
-.lcard .p-bg {
+.left-card .p-bg {
     background: #5D58F0;
 }
 
@@ -738,14 +738,14 @@ footer {
     }
 
     /* Our Stories  */
-    .left-card {
+    .left-cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 11px;
         margin: 15px;
     }
 
-    .lcard p {
+    .left-card p {
         display: flex;
         width: 100px;
         height: 15px;
@@ -765,7 +765,7 @@ footer {
 
     }
 
-    .lcard h3 {
+    .left-card h3 {
         font-size: 9.133px;
         line-height: 17.125px;
         width: 107.916px;
