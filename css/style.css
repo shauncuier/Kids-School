@@ -577,8 +577,6 @@ footer {
     font-weight: bold;
 
 }
-
-
 /* Marquee */
 
 
@@ -620,8 +618,8 @@ footer {
     .logo {
         padding-left: 12px;
     }
-
     /* Nav */
+
     /* Hero */
     .hero {
         flex-direction: column-reverse;
