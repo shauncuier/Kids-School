@@ -459,32 +459,16 @@ nav ul li:nth-child(4) a {
     margin: 38px;
 }
 
+.lcard .green-bg {
+    background: #95B226;
+}
+
+.lcard .p-bg {
+    background: #5D58F0;
+}
 
 
 /* Our Stories */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 footer {
@@ -575,59 +559,7 @@ footer {
 /* Footer */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
+/* Marquee */
 .marquee {
     border-top: 1px solid var(--Orange);
     background-color: var(--Black);
@@ -656,62 +588,7 @@ footer {
     }
 }
 
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Marquee */
 
 
 
@@ -725,6 +602,7 @@ footer {
         padding-top: 40px;
     }
 
+    /* Nav */
     .menu,
     .logo h1 {
         display: none;
@@ -752,6 +630,7 @@ footer {
         padding-left: 12px;
     }
 
+    /* Nav */
     /* Hero */
     .hero {
         flex-direction: column-reverse;
@@ -792,6 +671,7 @@ footer {
         margin-bottom: 20px;
     }
 
+    /* Hero */
 
     /* curriculum */
     .curriculum h1 {
@@ -849,7 +729,7 @@ footer {
         line-height: 19.158px;
     }
 
-
+    /* curriculum */
 
     /* Arrows */
     .arrows,
@@ -857,17 +737,13 @@ footer {
         display: none;
     }
 
-    /*  */
-
-
+    /* Our Stories  */
     .left-card {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 11px;
         margin: 15px;
     }
-
-
 
     .lcard p {
         display: flex;
@@ -882,7 +758,6 @@ footer {
         font-style: normal;
         font-weight: 500;
         line-height: 17.125px;
-        /* 187.5% */
         text-transform: capitalize;
         margin-top: -12px;
         margin-left: 10px;
@@ -907,14 +782,7 @@ footer {
         display: inline;
 
     }
-
-
-
-    /*  */
-
-
-
-
+    /* Our Stories  */
 
     /* Footer */
     .footer-items {
