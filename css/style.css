@@ -566,27 +566,18 @@ footer {
     padding: 20px;
 }
 
-.marquee span img {
-    height: 30px;
-}
-
 .marquee span {
     color: var(--Orange);
 }
 
 .blink {
-    animation: blinker 1.5s linear infinite;
+    animation: 1.5s linear infinite;
     color: var(--White);
     font-size: 30px;
     font-weight: bold;
 
 }
 
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
 
 /* Marquee */
 
@@ -768,8 +759,6 @@ footer {
     .left-card h3 {
         font-size: 9.133px;
         line-height: 17.125px;
-        width: 107.916px;
-        height: 28.542px;
         margin: 22px;
     }
 
@@ -782,6 +771,7 @@ footer {
         display: inline;
 
     }
+
     /* Our Stories  */
 
     /* Footer */
@@ -824,5 +814,21 @@ footer {
     .social h2 {
         font-size: 22.043px;
     }
+
+
+    /* Marquee */
+
+    .marquee {
+        padding: 10px;
+    }
+
+    .blink {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* Marquee */
+
+
 
 }
