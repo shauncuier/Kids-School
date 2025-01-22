@@ -184,6 +184,11 @@ nav ul li:nth-child(4) a {
     cursor: pointer;
 }
 
+.hero-content button:hover{
+    background: var(--Orange);
+    color: #000;
+}
+
 .hero-img img {
     width: 100%;
 }
@@ -467,6 +472,31 @@ nav ul li:nth-child(4) a {
     background: #5D58F0;
 }
 
+.stories-btn-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+}
+
+.stories-btn {
+    border-radius: 12px;
+    background: var(--Black);
+    border: 1px solid var(--Black);
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    padding: 10px;
+    width: 197px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.stories-btn:hover{
+    background: var(--Orange);
+    border: 1px solid var(--Orange);
+    color: #000;
+}
 
 /* Our Stories */
 
@@ -577,6 +607,7 @@ footer {
     font-weight: bold;
 
 }
+
 /* Marquee */
 
 
@@ -618,6 +649,7 @@ footer {
     .logo {
         padding-left: 12px;
     }
+
     /* Nav */
 
     /* Hero */
@@ -768,6 +800,17 @@ footer {
     .stories-cards {
         display: inline;
 
+    }
+
+    .stories-btn-div {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .stories-btn{
+        width: 134px;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
     }
 
     /* Our Stories  */
